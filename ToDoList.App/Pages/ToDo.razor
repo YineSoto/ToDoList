@@ -1,0 +1,47 @@
+@page "/todo"
+@using global::ToDoList.App.DTO
+@inject LocalStorageAccessor LocalStorageAccessor
+@*Comentarios así, para que no se vean en el HTML*@
+@*En el caso del Inject, la clase de esta no nos salga podemos hacer CTRL + click sobre la clase para añadir el
+"paquete"*@
+
+
+<PageTitle>Todo</PageTitle>
+
+<h1>To Do List</h1>
+
+@foreach (TodoTask item in tasks)
+{
+    <p><input type="checkbox" @bind="item.Completed" @onclick="SaveAsync"/> @item</p>
+}
+
+<input type="text" @bind="TaskText" />
+
+<button class="btn btn-primary" @onclick="AddTaskAsync">Add</button>
+
+@code {
+    private List<TodoTask> tasks = new();
+
+    private string? TaskText { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var storageTasks = await LocalStorageAccessor.GetValueAsync<List<TodoTask>>("todos");
+            foreach (TodoTask t in storageTasks) tasks.Add(t);
+            StateHasChanged();
+        }
+    }
+
+    private async Task SaveAsync(){
+        await Task.Delay(1); //No se debe hacer este metodo, es errado. 
+        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+    }
+    private async Task AddTaskAsync()
+    {
+        tasks.Add(new TodoTask { Text = TaskText });
+        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+        TaskText = "";
+    }
+}
