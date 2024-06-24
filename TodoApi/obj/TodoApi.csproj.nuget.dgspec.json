@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"

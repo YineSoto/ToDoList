@@ -1029,3 +1029,4 @@ c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\0bpi08ur34.gz
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\sbzk1a01bp.gz
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\bqvmopm2sm.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\ToDoList.App.sourcelink.json
