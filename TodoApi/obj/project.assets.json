@@ -8293,11 +8293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
+      "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\obj\\",
+      "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8380,13 +8380,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

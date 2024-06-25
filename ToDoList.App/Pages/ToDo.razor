@@ -1,5 +1,6 @@
 @page "/todo"
-@using global::ToDoList.App.DTO
+@using global::ToDoList.App
+@using global::ToDoList.DTO
 @inject LocalStorageAccessor LocalStorageAccessor
 @*Comentarios así, para que no se vean en el HTML*@
 @*En el caso del Inject, la clase de esta no nos salga podemos hacer CTRL + click sobre la clase para añadir el
@@ -28,8 +29,7 @@
     {
         if (firstRender)
         {
-            var storageTasks = await LocalStorageAccessor.GetValueAsync<List<TodoTask>>("todos");
-            foreach (TodoTask t in storageTasks) tasks.Add(t);
+            tasks = await Http.GetFromJsonAsync<List<TodoTask>>("http://localhost:5190/api/TodoItems");
             StateHasChanged();
         }
     }

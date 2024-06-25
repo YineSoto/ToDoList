@@ -1,0 +1,12 @@
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.deps.json
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.dll
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.pdb
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.AssemblyInfoInputs.cache
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.AssemblyInfo.cs
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.csproj.CoreCompileInputs.cache
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.sourcelink.json
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.dll
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\refint\ToDoList.DTO.dll
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.pdb
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ref\ToDoList.DTO.dll
