@@ -2,6 +2,7 @@
 @using global::ToDoList.App
 @using global::ToDoList.DTO
 @inject LocalStorageAccessor LocalStorageAccessor
+@inject HttpClient Http
 @*Comentarios así, para que no se vean en el HTML*@
 @*En el caso del Inject, la clase de esta no nos salga podemos hacer CTRL + click sobre la clase para añadir el
 "paquete"*@
@@ -13,7 +14,7 @@
 
 @foreach (TodoTask item in tasks)
 {
-    <p><input type="checkbox" @bind="item.Completed" @onclick="SaveAsync"/> @item</p>
+    <p><input type="checkbox" @bind="item.IsComplete" @onclick="SaveAsync"/> @item</p>
 }
 
 <input type="text" @bind="TaskText" />
@@ -40,7 +41,7 @@
     }
     private async Task AddTaskAsync()
     {
-        tasks.Add(new TodoTask { Text = TaskText });
+        tasks.Add(new TodoTask { Name = TaskText });
         await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
         TaskText = "";
     }

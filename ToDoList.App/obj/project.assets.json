@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.6": {
         "type": "package",
         "dependencies": {
@@ -504,6 +520,22 @@
       }
     },
     "net8.0/browser-wasm": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.6": {
         "type": "package",
         "dependencies": {
@@ -1001,6 +1033,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/8.0.6": {
       "sha512": "H1CSbD7UeSPsrJSUpvbms6SqWMa5y8ch4Rw+gyHh2uztOEb20fTP2r0AUnStn1Q9WYghikiDO5wzkgV+n6KC2Q==",
       "type": "package",
@@ -2077,6 +2124,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.6",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
@@ -2090,11 +2138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+      "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
       "projectName": "ToDoList.App",
-      "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+      "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
       "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\obj\\",
+      "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2109,8 +2157,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
-              "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
+            "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
+              "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
             }
           }
         }
@@ -2130,6 +2178,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[8.0.6, )"

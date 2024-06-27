@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {}
+    "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {
+    "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+        "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
         "projectName": "ToDoList.App",
-        "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+        "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
         "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\obj\\",
+        "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
-                "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
+              "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
+                "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -100,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
+    "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
+        "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
         "projectName": "ToDoList.DTO",
-        "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
+        "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
         "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\obj\\",
+        "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"

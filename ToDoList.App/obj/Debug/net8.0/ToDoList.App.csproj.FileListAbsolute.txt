@@ -1030,3 +1030,17 @@ c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\sbzk1a01bp.gz
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\bqvmopm2sm.gz
 c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\ToDoList.App.sourcelink.json
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\ToDoList.DTO.pdb
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\ToDoList.DTO.wasm
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\ToDoList.DTO.pdb.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\wwwroot\_framework\ToDoList.DTO.wasm.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\AutoMapper.dll
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\ToDoList.DTO.dll
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\bin\Debug\net8.0\ToDoList.DTO.pdb
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\webcil\AutoMapper.wasm
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\webcil\ToDoList.DTO.wasm
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\5ka39o7g9f.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\6y3hbyjtec.gz
+c:\Users\yinesa.soto.ext\Documents\Practicas\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\1qx4pjv0cj.gz

@@ -1,13 +1,13 @@
-namespace ToDoList.App.DTO
+namespace ToDoList.DTO
 {
     public class TodoTask
     {
-        public string? Text { get; init; }
-
-        public bool Completed { get; set; } = false;
+        public long Id { get; set; }
+        public string? Name { get; set; }
+        public bool IsComplete { get; set; }
 
         //Simplifica la sobreescritura del ToString() con un null coalesce
-        public override string ToString() => Text ?? string.Empty;
+        public override string ToString() => Name ?? string.Empty;
 
         /*
                 public override string ToString()
