@@ -12,13 +12,17 @@
 
 <h1>To Do List</h1>
 
+<!--Hacemos un foreach para iterar sobre las tareas y mostrarlas con formato HTML, en el onclick hacemos una
+funcion anonima para llamar a SaveAsync para actualizar el checkbox -->
 @foreach (TodoTask item in tasks)
 {
-    <p><input type="checkbox" @bind="item.IsComplete" @onclick="SaveAsync"/> @item</p>
+    <p><input type="checkbox" @bind="item.IsComplete" @onclick=" () => SaveAsync(item)" /> @item    <button @onclick="() => DeleteTaskAsync(item)"><i class="bi bi-x-square"></i></button></p>
 }
 
+<!--Input para ingresar las tascas, esto se guarda en la variable TaskText y la guardaremos en la lista tasks-->
 <input type="text" @bind="TaskText" />
 
+<!--Boton para agregar tascas nuevas -->
 <button class="btn btn-primary" @onclick="AddTaskAsync">Add</button>
 
 @code {
@@ -26,6 +30,7 @@
 
     private string? TaskText { get; set; }
 
+    //Al inicializar la pagina TodoList nos cargan las tareas insertadas previamente
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -35,14 +40,25 @@
         }
     }
 
-    private async Task SaveAsync(){
-        await Task.Delay(1); //No se debe hacer este metodo, es errado. 
-        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+    //Cambiar el estado del checkbox con Put HTTP
+    private async Task SaveAsync(TodoTask item)
+    {
+        await Task.Delay(1);
+        await Http.PutAsJsonAsync($"http://localhost:5190/api/TodoItems/{item.Id}", item);
     }
+
+    //Agregar un nuevo valor a la TodoList y hacer el Post HTTP
     private async Task AddTaskAsync()
     {
-        tasks.Add(new TodoTask { Name = TaskText });
-        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+        var post = new TodoTask { Name = TaskText };
+        tasks.Add(post);
         TaskText = "";
+        await Http.PostAsJsonAsync("http://localhost:5190/api/TodoItems", post);
+    }
+
+    private async Task DeleteTaskAsync(TodoTask item)
+    {
+        tasks.Remove(item);
+        await Http.DeleteAsync($"http://localhost:5190/api/TodoItems/{item.Id}");
     }
 }
