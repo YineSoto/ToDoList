@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\": {}
+    "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
       "projectName": "ToDoList.DTO",
-      "projectPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
+      "projectPath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj",
       "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\obj\\",
+      "outputPath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.DTO\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

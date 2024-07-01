@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UjrhZ00EBAU=",
+  "dgSpecHash": "1aEYpJ6++tQ=",
   "success": true,
-  "projectFilePath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+  "projectFilePath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.6\\microsoft.aspnetcore.authorization.8.0.6.nupkg.sha512",

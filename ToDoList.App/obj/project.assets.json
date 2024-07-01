@@ -2133,32 +2133,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\": {}
+    "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+      "projectUniqueName": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
       "projectName": "ToDoList.App",
-      "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+      "projectPath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
       "packagesPath": "C:\\Users\\yinesa.soto.ext\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.App\\obj\\",
+      "outputPath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\yinesa.soto.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
-              "projectPath": "c:\\Users\\yinesa.soto.ext\\Documents\\Practicas\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
+            "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj": {
+              "projectPath": "C:\\Users\\yinesa.soto.ext\\source\\repos\\YineSoto\\ToDoList\\ToDoList.DTO\\ToDoList.DTO.csproj"
             }
           }
         }
